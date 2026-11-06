@@ -651,6 +651,10 @@
 											"table_id": {
 												"value": "@item().table_id",
 												"type": "Expression"
+											},
+											"adf_run_id": {
+												"value": "@pipeline().parameters.adf_run_id",
+												"type": "Expression"
 											}
 										}
 									}
@@ -734,7 +738,7 @@
 					},
 					"adf_run_id": {
 						"type": "string",
-						"defaultValue": "a3"
+						"defaultValue": "a12"
 					}
 				},
 				"variables": {
