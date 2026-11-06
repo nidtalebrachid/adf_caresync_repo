@@ -184,7 +184,7 @@
 				"typeProperties": {
 					"notebookPath": "/caresync_repo/caresysnc_adb_repo/bronze_to_silver",
 					"baseParameters": {
-						"lable_Name": {
+						"Table_Name": {
 							"value": "@activity('read table details').output.firstRow.silver_table_name",
 							"type": "Expression"
 						},
