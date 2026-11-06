@@ -143,15 +143,15 @@
 				"typeProperties": {
 					"notebookPath": "/caresync_repo/caresysnc_adb_repo/landing_to_bronze",
 					"baseParameters": {
-						"Source_System": {
+						"source_System": {
 							"value": "@activity('read table details').output.firstRow.source_system",
 							"type": "Expression"
 						},
-						"Table_Name": {
+						"lable_Name": {
 							"value": "@activity('read table details').output.firstRow.bronze_table_name",
 							"type": "Expression"
 						},
-						"Landing_Timestamp": {
+						"landing_Timestamp": {
 							"value": "@variables('star time')",
 							"type": "Expression"
 						}
@@ -184,11 +184,11 @@
 				"typeProperties": {
 					"notebookPath": "/caresync_repo/caresysnc_adb_repo/bronze_to_silver",
 					"baseParameters": {
-						"Table_Name": {
+						"lable_Name": {
 							"value": "@activity('read table details').output.firstRow.silver_table_name",
 							"type": "Expression"
 						},
-						"Landing_Timestamp": {
+						"landing_Timestamp": {
 							"value": "@variables('star time')",
 							"type": "Expression"
 						}
