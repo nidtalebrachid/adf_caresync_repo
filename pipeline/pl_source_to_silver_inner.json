@@ -188,7 +188,7 @@
 							"value": "@activity('read table details').output.firstRow.silver_table_name",
 							"type": "Expression"
 						},
-						"landing_Timestamp": {
+						"Landing_Timestamp": {
 							"value": "@variables('star time')",
 							"type": "Expression"
 						}
