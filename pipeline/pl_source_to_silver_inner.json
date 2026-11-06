@@ -143,15 +143,15 @@
 				"typeProperties": {
 					"notebookPath": "/caresync_repo/caresysnc_adb_repo/landing_to_bronze",
 					"baseParameters": {
-						"source_System": {
+						"Source_System": {
 							"value": "@activity('read table details').output.firstRow.source_system",
 							"type": "Expression"
 						},
-						"lable_Name": {
+						"Table_Name": {
 							"value": "@activity('read table details').output.firstRow.bronze_table_name",
 							"type": "Expression"
 						},
-						"landing_Timestamp": {
+						"Landing_Timestamp": {
 							"value": "@variables('star time')",
 							"type": "Expression"
 						}
