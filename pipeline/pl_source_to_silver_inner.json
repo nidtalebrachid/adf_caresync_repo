@@ -186,11 +186,11 @@
 							"value": "@variables('star time')",
 							"type": "Expression"
 						},
-						"merge_keys": {
+						"Merge_keys": {
 							"value": "@activity('read table details').output.firstRow.load_type",
 							"type": "Expression"
 						},
-						"load_type": {
+						"Moad_type": {
 							"value": "@coalesce(activity('read table details').output.firstRow.merge_keys,'')",
 							"type": "Expression"
 						}
