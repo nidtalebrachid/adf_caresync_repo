@@ -191,7 +191,7 @@
 							"type": "Expression"
 						},
 						"Load_Type": {
-							"value": "\n\n@activity('read table details').output.firstRow.load_type",
+							"value": "@activity('read table details').output.firstRow.load_type\n",
 							"type": "Expression"
 						}
 					}
