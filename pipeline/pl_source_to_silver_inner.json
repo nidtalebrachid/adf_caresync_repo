@@ -187,11 +187,11 @@
 							"type": "Expression"
 						},
 						"Merge_Keys": {
-							"value": "@activity('read table details').output.firstRow.load_type",
+							"value": "@coalesce(activity('read table details').output.firstRow.merge_keys,'')",
 							"type": "Expression"
 						},
 						"Load_Type": {
-							"value": "@coalesce(activity('read table details').output.firstRow.merge_keys,'')",
+							"value": "\n\n@activity('read table details').output.firstRow.load_type",
 							"type": "Expression"
 						}
 					}
