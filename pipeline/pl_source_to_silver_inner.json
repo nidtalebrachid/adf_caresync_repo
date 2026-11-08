@@ -190,7 +190,7 @@
 							"value": "@activity('read table details').output.firstRow.load_type",
 							"type": "Expression"
 						},
-						"Moad_type": {
+						"Load_type": {
 							"value": "@coalesce(activity('read table details').output.firstRow.merge_keys,'')",
 							"type": "Expression"
 						}
