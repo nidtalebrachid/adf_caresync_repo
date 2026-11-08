@@ -5,17 +5,8 @@
 		"factoryName": {
 			"value": "adfcaresyc"
 		},
-		"ls_PostgreSql_properties_typeProperties_server": {
-			"value": "ep-blue-feather-b59iso8y-pooler.c-7.us-east-2.aws.neon.tech"
-		},
-		"ls_PostgreSql_properties_typeProperties_database": {
-			"value": "neondb"
-		},
-		"ls_PostgreSql_properties_typeProperties_username": {
-			"value": "neondb_owner"
-		},
-		"ls_adls_storage_properties_typeProperties_url": {
-			"value": "https://adlscaresync2029.dfs.core.windows.net/"
+		"ls_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1105-231500-en9hzwla"
 		},
 		"ls_AzureKeyVault_properties_typeProperties_baseUrl": {
 			"value": "https://keyvaultcaresync2029.vault.azure.net/"
@@ -29,8 +20,17 @@
 		"ls_AzureSqlDatabase_properties_typeProperties_userName": {
 			"value": "rachid"
 		},
-		"ls_AzureDatabricks_properties_typeProperties_existingClusterId": {
-			"value": "1105-231500-en9hzwla"
+		"ls_PostgreSql_properties_typeProperties_server": {
+			"value": "ep-blue-feather-b59iso8y-pooler.c-7.us-east-2.aws.neon.tech"
+		},
+		"ls_PostgreSql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"ls_PostgreSql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"ls_adls_storage_properties_typeProperties_url": {
+			"value": "https://adlscaresync2029.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
