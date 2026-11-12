@@ -1,0 +1,12 @@
+{
+	"name": "adfcaresyc",
+	"properties": {
+		"globalParameters": {
+			"email_receipent": {
+				"type": "string",
+				"value": "rachid.nidtaleb@gmail.com"
+			}
+		}
+	},
+	"location": "eastus"
+}
