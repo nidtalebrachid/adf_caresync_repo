@@ -387,7 +387,7 @@
 							]
 						},
 						{
-							"value": "adls_cv",
+							"value": "adls_csv",
 							"activities": [
 								{
 									"name": "ingest csv to landing",
