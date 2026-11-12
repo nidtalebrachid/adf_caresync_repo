@@ -317,7 +317,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"on": {
-						"value": "@activity('read wartemarl value').output.firstRow.source_system",
+						"value": "@activity('read table details').output.firstRow.source_system",
 						"type": "Expression"
 					},
 					"cases": [
