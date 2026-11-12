@@ -180,6 +180,23 @@
 								],
 								"scriptBlockExecutionTimeout": "02:00:00"
 							}
+						},
+						{
+							"name": "update pipeline as faild",
+							"type": "Fail",
+							"dependsOn": [
+								{
+									"activity": "silver to gold",
+									"dependencyConditions": [
+										"Completed"
+									]
+								}
+							],
+							"userProperties": [],
+							"typeProperties": {
+								"message": "gold pipeline faild",
+								"errorCode": "500"
+							}
 						}
 					]
 				}
